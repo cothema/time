@@ -1,10 +1,10 @@
 <?php
 
-namespace Cothema\Model;
+namespace Cothema\Time\Model\I;
 
 /**
  * @author Milos Havlicek <miloshavlicek@gmail.com>
  */
-class Week extends \Nette\Object {
-
+interface Range {
+    
 }

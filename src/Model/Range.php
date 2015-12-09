@@ -1,6 +1,6 @@
 <?php
 
-namespace Cothema\Selector;
+namespace Cothema\Time\Model;
 
 /**
  * @author Milos Havlicek <miloshavlicek@gmail.com>

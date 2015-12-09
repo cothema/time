@@ -1,10 +1,10 @@
 <?php
 
-namespace Cothema\Model;
+namespace Cothema\Time\Model;
 
 /**
  * @author Milos Havlicek <miloshavlicek@gmail.com>
  */
-class Month extends \Nette\Object {
+class Moment extends \Nette\Object {
 
 }

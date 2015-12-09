@@ -1,11 +1,11 @@
 <?php
 
-namespace Cothema\Model;
+namespace Cothema\Time\Model\Range;
 
 /**
  * @author Milos Havlicek <miloshavlicek@gmail.com>
  */
-class Day extends \Nette\Object {
+class Day extends \Nette\Object implements \Cothema\Time\Model\I\Range {
 
     /** @var string */
     private $day;
