@@ -3,6 +3,11 @@
     "description": "Cothema Time",
     "type": "project",
     "license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Milos Havlicek"
+        }
+    ],
     "require": {
         "php": ">= 5.5.0",
         "nette/utils": ">=2.3.0",
@@ -10,6 +15,11 @@
         "nette/caching": ">=2.3.0"
     },
     "require-dev": {
-        "nette/tester": "~1.4"
+        "nette/tester": ">=1.6.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": ["src/"]
     }
 }
