@@ -5,9 +5,9 @@
     "license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
     "require": {
         "php": ">= 5.5.0",
-        "nette/utils": "~2.3.0",
-        "nette/robot-loader": "~2.3.0",
-        "nette/caching": "~2.3.0"
+        "nette/utils": ">=2.3.0",
+        "nette/robot-loader": ">=2.3.0",
+        "nette/caching": ">=2.3.0"
     },
     "require-dev": {
         "nette/tester": "~1.4"
