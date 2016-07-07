@@ -1,6 +1,6 @@
 <?php
 
-namespace Cothema\Time\Definition;
+namespace Cothema\Time\Model\Definition;
 
 class Absolute extends \Nette\Object {
 

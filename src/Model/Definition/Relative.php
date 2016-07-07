@@ -1,7 +1,7 @@
 <?php
 
-namespace Cothema\Time\Definition;
+namespace Cothema\Time\Model\Definition;
 
 class Relative extends \Nette\Object {
-	
+    
 }
