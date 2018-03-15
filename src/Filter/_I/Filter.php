@@ -2,9 +2,11 @@
 
 namespace Cothema\Time\Filter\I;
 
-interface Filter {
+interface Filter
+{
 
     public function __construct($input);
 
     public function getOutput();
+
 }

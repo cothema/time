@@ -2,24 +2,30 @@
 
 namespace Cothema\Time\Validator;
 
+use Nette\SmartObject;
+
 /**
- * 
+ *
  * @author Milos Havlicek <miloshavlicek@gmail.com>
  */
-class Boolean extends \Nette\Object implements I\Validator {
+class Boolean implements I\Validator
+{
+
+    use SmartObject;
 
     /**
-     * 
+     *
      * @param mixed $boolean
      * @throws \Exception
-     * @return TRUE
+     * @return true
      */
-    public static function validate($boolean) {
+    public static function validate($boolean)
+    {
         if (!is_bool($boolean)) {
             throw new \Exception('Input have to be boolean.');
         }
 
-        return TRUE;
+        return true;
     }
 
 }

@@ -2,10 +2,14 @@
 
 namespace Cothema\Time\Filter\Time;
 
-class Def extends \Cothema\Time\Filter\A\Filter implements \Cothema\Time\Filter\I\Filter {
+use Cothema\Time\Filter;
 
-    protected function apply() {
-        if(is_bool($this->input)) {
+class Def extends Filter\A\Filter implements Filter\I\Filter
+{
+
+    protected function apply()
+    {
+        if (is_bool($this->input)) {
             $this->output = $this->input;
             return;
         }

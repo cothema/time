@@ -2,6 +2,11 @@
 
 namespace Cothema\Time\Model\Definition;
 
-class Absolute extends \Nette\Object {
+use Nette\SmartObject;
+
+class Absolute
+{
+
+    use SmartObject;
 
 }

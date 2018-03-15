@@ -2,9 +2,14 @@
 
 namespace Cothema\Time\Model;
 
+use Nette\SmartObject;
+
 /**
  * @author Milos Havlicek <miloshavlicek@gmail.com>
  */
-class Moment extends \Nette\Object {
+class Moment
+{
+
+    use SmartObject;
 
 }

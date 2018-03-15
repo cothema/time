@@ -3,16 +3,17 @@
 namespace Cothema\Time\Validator\I;
 
 /**
- * 
+ *
  * @author Milos Havlicek <miloshavlicek@gmail.com>
  */
-interface Validator {
-    
+interface Validator
+{
+
     /**
-     * 
+     *
      * @param mixed $input
      * @throws \Exception
-     * @return TRUE
+     * @return true
      */
     public static function validate($input);
 

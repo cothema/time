@@ -7,18 +7,20 @@ use Tester\Assert;
 
 require_once __DIR__ . '/../bootstrap.php';
 
-class Boolean extends \Tester\TestCase {
+class Boolean extends \Tester\TestCase
+{
 
-    public function testCase1() {
-        $trueCases = [TRUE, FALSE];
+    public function testCase1()
+    {
+        $trueCases = [true, false];
         $exceptionCases = ['15:00', 'test'];
 
         foreach ($trueCases as $trueCase) {
             Assert::true(Tested::validate($trueCase));
         }
-        
+
         foreach ($exceptionCases as $exceptionCase) {
-            Assert::exception(function() use ($exceptionCase) {
+            Assert::exception(function () use ($exceptionCase) {
                 Tested::validate($exceptionCase);
             }, '\Exception');
         }
